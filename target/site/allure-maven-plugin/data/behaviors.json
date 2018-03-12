@@ -1,0 +1,70 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "b0d139fd15df010a",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "a4cf5ee3e8634f54",
+        "name" : "testDivision",
+        "title" : "Prueba dividir",
+        "time" : {
+          "start" : 1519064981582,
+          "stop" : 1519064981588,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ed46632f51ac4049",
+        "name" : "testMultiplicacion",
+        "title" : "Prueba multiplicar",
+        "time" : {
+          "start" : 1519064981592,
+          "stop" : 1519064981592,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9abc74b02f8506a6",
+        "name" : "testResta",
+        "title" : "Prueba resta",
+        "time" : {
+          "start" : 1519064981594,
+          "stop" : 1519064981737,
+          "duration" : 143
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "8e4a97357ea69e1c",
+        "name" : "testSuma",
+        "title" : "Prueba de Suma",
+        "time" : {
+          "start" : 1519064981738,
+          "stop" : 1519064981738,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

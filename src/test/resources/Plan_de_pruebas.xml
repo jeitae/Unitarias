@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Plan de pruebas">
+
+	<suite-files>
+
+		<suite-file
+			path="src/test/resources/testng.xml" />
+	</suite-files>
+</suite>

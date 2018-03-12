@@ -1,0 +1,59 @@
+{
+  "uid" : "a4cf5ee3e8634f54",
+  "name" : "testDivision",
+  "title" : "Prueba dividir",
+  "time" : {
+    "start" : 1519064981582,
+    "stop" : 1519064981588,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "685f09fbbb59f9e2",
+    "name" : "Pruebas de Aritmetica : Prueba de operaciones basicas[numero1=1, numero2=2]",
+    "title" : "Pruebas de Aritmetica : Prueba de operaciones basicas[numero1=1, numero2=2]"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDivision"
+  }, {
+    "name" : "suite-title",
+    "value" : "Pruebas de Aritmetica : Prueba de operaciones basicas[numero1=1, numero2=2]"
+  }, {
+    "name" : "thread",
+    "value" : "6392@octi107.gmalv.grupomutual.com.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "octi107.gmalv.grupomutual.com"
+  }, {
+    "name" : "suite-name",
+    "value" : "Pruebas de Aritmetica : Prueba de operaciones basicas[numero1=1, numero2=2]"
+  }, {
+    "name" : "testSuite",
+    "value" : "Pruebas de Aritmetica"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "PracticaEclipse.Unitarias.AritmeticaTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Prueba de operaciones basicas"
+  } ],
+  "parameters" : [ ]
+}

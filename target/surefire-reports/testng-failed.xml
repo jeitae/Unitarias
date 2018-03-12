@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Pruebas de Aritmetica]">
+  <parameter name="numero1" value="1"/>
+  <parameter name="numero2" value="2"/>
+  <test name="Prueba de operaciones basicas(failed)">
+    <parameter name="numero1" value="1"/>
+    <parameter name="numero2" value="2"/>
+    <classes>
+      <class name="PracticaEclipse.Unitarias.AritmeticaTest">
+        <methods>
+          <include name="testResta"/>
+          <include name="setUp"/>
+          <include name="setOut"/>
+        </methods>
+      </class> <!-- PracticaEclipse.Unitarias.AritmeticaTest -->
+    </classes>
+  </test> <!-- Prueba de operaciones basicas(failed) -->
+</suite> <!-- Failed suite [Pruebas de Aritmetica] -->

@@ -62,6 +62,23 @@ public class AritmeticaTest extends Abstract {
 			
 		}
 	}
+	
+	@Title("Prueba multiplicar por 2")
+	@Test
+	public void testMultiplicacion2() {
+		
+		resultado = arit.multiplicacionXdos(numero1, numero2);
+		try {
+
+			Assert.assertEquals(3, resultado );
+
+		} catch (AssertionError e) {
+
+			log.enviarLog("Resultado de Multiplicacion", resultado + "");
+			org.testng.Assert.fail("No da el mismo resultado se esperaba: 4");
+			
+		}
+	}
 
 	@Title("Prueba dividir")
 	@Test

@@ -33,7 +33,7 @@ public class AritmeticaTest extends Abstract {
 
 			resultado = arit.resta(numero1, numero2);
 			
-			Assert.assertEquals(0, resultado);
+			Assert.assertEquals(1, resultado);
 
 		} catch (AssertionError e) {
 

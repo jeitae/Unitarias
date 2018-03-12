@@ -4,13 +4,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PracticaEclipse.Unitarias.Utilitario.Abstract;
-import ru.yandex.qatools.allure.annotations.Title;
+
 
 public class AritmeticaTest extends Abstract {
 
 	int resultado = 0;
 
-	@Title("Prueba de Suma")
 	@Test
 	public void testSuma() {
 
@@ -22,14 +21,12 @@ public class AritmeticaTest extends Abstract {
 
 		} catch (AssertionError e) {
 
-			log.enviarLog("Resultado Suma", resultado + "");
 			org.testng.Assert.fail("No da el mismo resultado se esperaba: 3");
 			
 		}
 
 	}
 
-	@Title("Prueba resta")
 	@Test
 	public void testResta() {
 		try {
@@ -40,13 +37,11 @@ public class AritmeticaTest extends Abstract {
 
 		} catch (AssertionError e) {
 
-			log.enviarLog("Resultado resta", resultado + "");
 			org.testng.Assert.fail("No da el mismo resultado se espereba: -1");
 			
 		}
 	}
 
-	@Title("Prueba multiplicar")
 	@Test
 	public void testMultiplicacion() {
 		
@@ -57,13 +52,11 @@ public class AritmeticaTest extends Abstract {
 
 		} catch (AssertionError e) {
 
-			log.enviarLog("Resultado de Multiplicacion", resultado + "");
 			org.testng.Assert.fail("No da el mismo resultado se esperaba: 2");
 			
 		}
 	}
 	
-	@Title("Prueba multiplicar por 2")
 	@Test
 	public void testMultiplicacion2() {
 		
@@ -74,13 +67,11 @@ public class AritmeticaTest extends Abstract {
 
 		} catch (AssertionError e) {
 
-			log.enviarLog("Resultado de Multiplicacion", resultado + "");
 			org.testng.Assert.fail("No da el mismo resultado se esperaba: 4");
 			
 		}
 	}
 
-	@Title("Prueba dividir")
 	@Test
 	public void testDivision() {
 		try {
@@ -91,7 +82,6 @@ public class AritmeticaTest extends Abstract {
 
 		} catch (AssertionError e) {
 
-			log.enviarLog("Resultado Division", resultado + "");
 			org.testng.Assert.fail("No da el mismo resultado se esperaba: 0");
 			
 		}

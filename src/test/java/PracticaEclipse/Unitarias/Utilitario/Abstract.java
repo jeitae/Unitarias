@@ -13,14 +13,12 @@ public abstract class Abstract {
 	
 	
 	protected Aritmetica arit;
-	public CapturarLog log;
 
 	@Parameters({ "numero1", "numero2" })
 	@BeforeClass
 	public void setUp(int numero1, int numero2) {
 
 		arit = new Aritmetica();
-		log = new CapturarLog();
 
 		this.numero1 = numero1;
 		this.numero2 = numero2;

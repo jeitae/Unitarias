@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Pruebas de Aritmetica]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Pruebas de Aritmetica]">
   <parameter name="numero1" value="1"/>
   <parameter name="numero2" value="2"/>
   <test name="Prueba de operaciones basicas(failed)">
@@ -10,7 +10,6 @@
       <class name="PracticaEclipse.Unitarias.AritmeticaTest">
         <methods>
           <include name="testMultiplicacion2"/>
-          <include name="testResta"/>
           <include name="setUp"/>
           <include name="setOut"/>
         </methods>

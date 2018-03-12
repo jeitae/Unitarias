@@ -70,7 +70,7 @@ public class AritmeticaTest extends Abstract {
 		resultado = arit.multiplicacionXdos(numero1, numero2);
 		try {
 
-			Assert.assertEquals(3, resultado );
+			Assert.assertEquals(4, resultado );
 
 		} catch (AssertionError e) {
 

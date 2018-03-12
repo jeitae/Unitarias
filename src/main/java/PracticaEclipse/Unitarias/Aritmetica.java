@@ -16,7 +16,7 @@ public class Aritmetica {
 	
 	public int multiplicacionXdos(int primerFactor, int segundoFactor) {
 		
-		return (primerFactor * segundoFactor)*2;
+		return ((primerFactor * segundoFactor)*2);
 		
 	}
 

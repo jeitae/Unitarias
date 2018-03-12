@@ -36,12 +36,12 @@ public class AritmeticaTest extends Abstract {
 
 			resultado = arit.resta(numero1, numero2);
 			
-			Assert.assertEquals(5, resultado);
+			Assert.assertEquals(-1, resultado);
 
 		} catch (AssertionError e) {
 
 			log.enviarLog("Resultado resta", resultado + "");
-			org.testng.Assert.fail("No da el mismo resultado se espereba: 5");
+			org.testng.Assert.fail("No da el mismo resultado se espereba: -1");
 			
 		}
 	}

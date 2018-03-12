@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">2 suites, 1 failed test</span>
+      <span class="top-banner-font-1">2 suites</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Pruebas_de_Aritmetica">
-              <span class="suite-name border-failed">Pruebas de Aritmetica</span>
+              <span class="suite-name border-passed">Pruebas de Aritmetica</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Pruebas_de_Aritmetica" class="hide-methods failed suite-Pruebas_de_Aritmetica"> (hide)</a> <!-- hide-methods failed suite-Pruebas_de_Aritmetica -->
-                      <a href="#" panel-name="suite-Pruebas_de_Aritmetica" class="show-methods failed suite-Pruebas_de_Aritmetica"> (show)</a> <!-- show-methods failed suite-Pruebas_de_Aritmetica -->
-                    </span>
-                    <div class="method-list-content failed suite-Pruebas_de_Aritmetica">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Pruebas_de_Aritmetica" title="PracticaEclipse.Unitarias.AritmeticaTest" hash-for-method="testMultiplicacion2">testMultiplicacion2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Pruebas_de_Aritmetica -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,6 +107,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Pruebas_de_Aritmetica" title="PracticaEclipse.Unitarias.AritmeticaTest" hash-for-method="testMultiplicacion">testMultiplicacion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pruebas_de_Aritmetica" title="PracticaEclipse.Unitarias.AritmeticaTest" hash-for-method="testMultiplicacion2">testMultiplicacion2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -147,25 +138,6 @@
         <div panel-name="suite-Plan_de_pruebas" class="panel Plan_de_pruebas">
         </div> <!-- panel Plan_de_pruebas -->
         <div panel-name="suite-Pruebas_de_Aritmetica" class="panel Pruebas_de_Aritmetica">
-          <div class="suite-Pruebas_de_Aritmetica-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">PracticaEclipse.Unitarias.AritmeticaTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testMultiplicacion2">
-                  </a> <!-- testMultiplicacion2 -->
-                  <span class="method-name">testMultiplicacion2</span>
-                  <div class="stack-trace">java.lang.AssertionError: No da el mismo resultado se esperaba: 4
-	at PracticaEclipse.Unitarias.AritmeticaTest.testMultiplicacion2(AritmeticaTest.java:78)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Pruebas_de_Aritmetica-class-failed -->
           <div class="suite-Pruebas_de_Aritmetica-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -184,6 +156,13 @@
                   <a name="testMultiplicacion">
                   </a> <!-- testMultiplicacion -->
                   <span class="method-name">testMultiplicacion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiplicacion2">
+                  </a> <!-- testMultiplicacion2 -->
+                  <span class="method-name">testMultiplicacion2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -314,30 +293,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testMultiplicacion2')
+data.setCell(0, 1, 'testDivision')
 data.setCell(0, 2, 'PracticaEclipse.Unitarias.AritmeticaTest')
-data.setCell(0, 3, 133);
+data.setCell(0, 3, 227);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testDivision')
+data.setCell(1, 1, 'testMultiplicacion')
 data.setCell(1, 2, 'PracticaEclipse.Unitarias.AritmeticaTest')
-data.setCell(1, 3, 30);
+data.setCell(1, 3, 4);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testSuma')
+data.setCell(2, 1, 'testMultiplicacion2')
 data.setCell(2, 2, 'PracticaEclipse.Unitarias.AritmeticaTest')
-data.setCell(2, 3, 6);
+data.setCell(2, 3, 4);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testResta')
 data.setCell(3, 2, 'PracticaEclipse.Unitarias.AritmeticaTest')
-data.setCell(3, 3, 6);
+data.setCell(3, 3, 4);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testMultiplicacion')
+data.setCell(4, 1, 'testSuma')
 data.setCell(4, 2, 'PracticaEclipse.Unitarias.AritmeticaTest')
-data.setCell(4, 3, 5);
+data.setCell(4, 3, 3);
 window.suiteTableData['Pruebas_de_Aritmetica']= { tableData: data, tableDiv: 'times-div-Pruebas_de_Aritmetica'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 180 ms</span>
+              <span class="suite-total-time">Total running time: 242 ms</span>
               <div id="times-div-Pruebas_de_Aritmetica">
               </div> <!-- times-div-Pruebas_de_Aritmetica -->
             </div> <!-- times-div -->
@@ -391,29 +370,27 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testDivision</span>
-                <span class="method-start">53 ms</span>
+                <span class="method-start">59 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMultiplicacion</span>
-                <span class="method-start">88 ms</span>
+                <span class="method-start">291 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testMultiplicacion2</span>
-                <span class="method-start">94 ms</span>
+                <span class="method-start">297 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testResta</span>
-                <span class="method-start">234 ms</span>
+                <span class="method-start">303 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testSuma</span>
-                <span class="method-start">241 ms</span>
+                <span class="method-start">312 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">setOut</span>
-                <span class="method-start">249 ms</span>
+                <span class="method-start">316 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

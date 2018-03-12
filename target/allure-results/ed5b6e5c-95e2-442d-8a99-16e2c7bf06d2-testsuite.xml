@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1520832812630" stop="1520832812973" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Pruebas de Aritmetica : Prueba de operaciones basicas[numero1=1, numero2=2]</name>
+    <title>Pruebas de Aritmetica : Prueba de operaciones basicas[numero1=1, numero2=2]</title>
+    <test-cases>
+        <test-case start="1520832812922" stop="1520832812928" status="passed">
+            <name>testDivision</name>
+            <title>Prueba dividir</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testDivision"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1520832812922" stop="1520832812928" status="passed">
+            <name>testDivision</name>
+            <title>Prueba dividir</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testDivision"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1520832812934" stop="1520832812935" status="passed">
+            <name>testMultiplicacion</name>
+            <title>Prueba multiplicar</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testMultiplicacion"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1520832812934" stop="1520832812935" status="passed">
+            <name>testMultiplicacion</name>
+            <title>Prueba multiplicar</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testMultiplicacion"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1520832812941" stop="1520832812941" status="passed">
+            <name>testMultiplicacion2</name>
+            <title>Prueba multiplicar por 2</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testMultiplicacion2"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1520832812941" stop="1520832812941" status="passed">
+            <name>testMultiplicacion2</name>
+            <title>Prueba multiplicar por 2</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testMultiplicacion2"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1520832812947" stop="1520832812947" status="passed">
+            <name>testResta</name>
+            <title>Prueba resta</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testResta"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1520832812947" stop="1520832812947" status="passed">
+            <name>testResta</name>
+            <title>Prueba resta</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testResta"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1520832812955" stop="1520832812955" status="passed">
+            <name>testSuma</name>
+            <title>Prueba de Suma</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testSuma"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1520832812955" stop="1520832812955" status="passed">
+            <name>testSuma</name>
+            <title>Prueba de Suma</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Pruebas de Aritmetica"/>
+                <label name="testGroup" value="Prueba de operaciones basicas"/>
+                <label name="testClass" value="PracticaEclipse.Unitarias.AritmeticaTest"/>
+                <label name="testMethod" value="testSuma"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="5799@OCTI107.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

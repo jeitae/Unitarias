@@ -17,11 +17,11 @@ public class AritmeticaTest extends Abstract {
 
 		try {
 
-			Assert.assertEquals(3, resultado);
+			Assert.assertEquals(4, resultado);
 
 		} catch (AssertionError e) {
 
-			org.testng.Assert.fail("No da el mismo resultado se esperaba: 3");
+			org.testng.Assert.fail("No da el mismo resultado se esperaba: 4");
 			
 		}
 
@@ -33,11 +33,11 @@ public class AritmeticaTest extends Abstract {
 
 			resultado = arit.resta(numero1, numero2);
 			
-			Assert.assertEquals(-1, resultado);
+			Assert.assertEquals(0, resultado);
 
 		} catch (AssertionError e) {
 
-			org.testng.Assert.fail("No da el mismo resultado se espereba: -1");
+			org.testng.Assert.fail("No da el mismo resultado se espereba: 0");
 			
 		}
 	}
@@ -48,11 +48,11 @@ public class AritmeticaTest extends Abstract {
 		resultado = arit.multiplicacion(numero1, numero2);
 		try {
 
-			Assert.assertEquals(2, resultado );
+			Assert.assertEquals(4, resultado );
 
 		} catch (AssertionError e) {
 
-			org.testng.Assert.fail("No da el mismo resultado se esperaba: 2");
+			org.testng.Assert.fail("No da el mismo resultado se esperaba:4");
 			
 		}
 	}
@@ -63,11 +63,11 @@ public class AritmeticaTest extends Abstract {
 		resultado = arit.multiplicacionXdos(numero1, numero2);
 		try {
 
-			Assert.assertEquals(4, resultado );
+			Assert.assertEquals(8, resultado );
 
 		} catch (AssertionError e) {
 
-			org.testng.Assert.fail("No da el mismo resultado se esperaba: 4");
+			org.testng.Assert.fail("No da el mismo resultado se esperaba: 8");
 			
 		}
 	}
@@ -78,11 +78,11 @@ public class AritmeticaTest extends Abstract {
 
 			resultado = arit.division(numero1, numero2);
 			
-			Assert.assertEquals(0, resultado);
+			Assert.assertEquals(1, resultado);
 
 		} catch (AssertionError e) {
 
-			org.testng.Assert.fail("No da el mismo resultado se esperaba: 0");
+			org.testng.Assert.fail("No da el mismo resultado se esperaba: 1");
 			
 		}
 	}

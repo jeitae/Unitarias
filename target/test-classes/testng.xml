@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Pruebas de Aritmetica">
 	<test name="Prueba de operaciones basicas">
-		<parameter name="numero1" value="1" />
+		<parameter name="numero1" value="2" />
 		<parameter name="numero2" value="2" />
 		<classes>
 			<class name="PracticaEclipse.Unitarias.AritmeticaTest" />

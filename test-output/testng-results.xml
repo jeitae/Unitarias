@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Plan de pruebas" duration-ms="0" started-at="2018-03-12T05:33:33Z" finished-at="2018-03-12T05:33:33Z">
+  <suite name="Plan de pruebas" duration-ms="0" started-at="2018-03-12T05:45:40Z" finished-at="2018-03-12T05:45:40Z">
     <groups>
     </groups>
   </suite> <!-- Plan de pruebas -->
-  <suite name="Pruebas de Aritmetica" duration-ms="367" started-at="2018-03-12T05:33:32Z" finished-at="2018-03-12T05:33:32Z">
+  <suite name="Pruebas de Aritmetica" duration-ms="33" started-at="2018-03-12T05:45:40Z" finished-at="2018-03-12T05:45:40Z">
     <groups>
     </groups>
-    <test name="Prueba de operaciones basicas" duration-ms="367" started-at="2018-03-12T05:33:32Z" finished-at="2018-03-12T05:33:32Z">
+    <test name="Prueba de operaciones basicas" duration-ms="33" started-at="2018-03-12T05:45:40Z" finished-at="2018-03-12T05:45:40Z">
       <class name="PracticaEclipse.Unitarias.AritmeticaTest">
-        <test-method status="PASS" signature="setUp(int, int)[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@54cf7c6a]" name="setUp" is-config="true" duration-ms="53" started-at="2018-03-11T23:33:32Z" finished-at="2018-03-11T23:33:32Z">
+        <test-method status="PASS" signature="setUp(int, int)[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="6" started-at="2018-03-11T23:45:40Z" finished-at="2018-03-11T23:45:40Z">
           <params>
             <param index="0">
               <value>
@@ -27,27 +27,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDivision()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@54cf7c6a]" name="testDivision" duration-ms="227" started-at="2018-03-11T23:33:32Z" finished-at="2018-03-11T23:33:32Z">
+        <test-method status="PASS" signature="testDivision()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@6d7b4f4c]" name="testDivision" duration-ms="5" started-at="2018-03-11T23:45:40Z" finished-at="2018-03-11T23:45:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivision -->
-        <test-method status="PASS" signature="testMultiplicacion()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@54cf7c6a]" name="testMultiplicacion" duration-ms="4" started-at="2018-03-11T23:33:32Z" finished-at="2018-03-11T23:33:32Z">
+        <test-method status="PASS" signature="testMultiplicacion()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@6d7b4f4c]" name="testMultiplicacion" duration-ms="1" started-at="2018-03-11T23:45:40Z" finished-at="2018-03-11T23:45:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplicacion -->
-        <test-method status="PASS" signature="testMultiplicacion2()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@54cf7c6a]" name="testMultiplicacion2" duration-ms="4" started-at="2018-03-11T23:33:32Z" finished-at="2018-03-11T23:33:32Z">
+        <test-method status="PASS" signature="testMultiplicacion2()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@6d7b4f4c]" name="testMultiplicacion2" duration-ms="1" started-at="2018-03-11T23:45:40Z" finished-at="2018-03-11T23:45:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplicacion2 -->
-        <test-method status="PASS" signature="testResta()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@54cf7c6a]" name="testResta" duration-ms="4" started-at="2018-03-11T23:33:32Z" finished-at="2018-03-11T23:33:32Z">
+        <test-method status="PASS" signature="testResta()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@6d7b4f4c]" name="testResta" duration-ms="1" started-at="2018-03-11T23:45:40Z" finished-at="2018-03-11T23:45:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResta -->
-        <test-method status="PASS" signature="testSuma()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@54cf7c6a]" name="testSuma" duration-ms="3" started-at="2018-03-11T23:33:32Z" finished-at="2018-03-11T23:33:32Z">
+        <test-method status="PASS" signature="testSuma()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@6d7b4f4c]" name="testSuma" duration-ms="1" started-at="2018-03-11T23:45:40Z" finished-at="2018-03-11T23:45:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuma -->
-        <test-method status="PASS" signature="setOut()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@54cf7c6a]" name="setOut" is-config="true" duration-ms="1" started-at="2018-03-11T23:33:32Z" finished-at="2018-03-11T23:33:32Z">
+        <test-method status="PASS" signature="setOut()[pri:0, instance:PracticaEclipse.Unitarias.AritmeticaTest@6d7b4f4c]" name="setOut" is-config="true" duration-ms="0" started-at="2018-03-11T23:45:40Z" finished-at="2018-03-11T23:45:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setOut -->
